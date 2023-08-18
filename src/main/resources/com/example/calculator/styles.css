@@ -1,0 +1,40 @@
+.root{
+    -fx-background-color: #454545;
+    -fx-border-color:black;
+
+}
+
+.numberButtons{
+    -fx-background-color: #333333;
+     -fx-shape: "M 0,0 m -10,0 a 10,10 0 1,0 20,0 a 10,10 0 1,0 -20,0";
+}
+.numberButtons:hover{
+    -fx-background-color:white;
+    -fx-text-fill:black;
+}
+
+.operatorButtons{
+    -fx-background-color: #00B0F0;
+    -fx-border-radius: 15px;
+    -fx-shape: "M 0,0 m -10,0 a 10,10 0 1,0 20,0 a 10,10 0 1,0 -20,0";
+}
+
+.operatorButtons:hover{
+    -fx-background-color:white;
+    -fx-text-fill:black;
+}
+
+#equalsButton{
+    -fx-background-color: #FFBB00;
+    -fx-shape: "M 0,0 m -10,0 a 10,10 0 1,0 20,0 a 10,10 0 1,0 -20,0";
+}
+
+#equalsButton:hover{
+    -fx-background-color:white;
+    -fx-text-fill:black;
+}
+
+#buttonClear{
+    -fx-background-color: #FFBB00;
+}
+
